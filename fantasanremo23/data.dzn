@@ -1,0 +1,29 @@
+n = 28;
+max_quote = 100;
+budget = 100;
+artists_per_team = 5;
+
+% https://app.fantasanremo.com/fantaquotazioni
+quotes = [
+  18,21,21,20,16, 20,24,20,17,25,
+  21,22,21,18,20, 22,21,26,18,19,
+  16,22,19,16,17, 22,27,16];
+
+artists = [
+  "Anna Oxa", "Ariete", "Articolo 31", "Colapesce Dimartino", 
+  "Colla Zio", "Coma_Cose", "Elodie", "Gianluca Grignani",
+  "gIANMARIA", "Giorgia", "I Cugini di Campagna", "Lazza",
+  "LDA", "Leo Gassmann", "Levante", "Madame",
+  "Mara Sattei", "Marco Mengoni", "Modà", "Mr. Rain",
+  "OLLY", "Paola & Chiara", "Rosa Chemical", "Sethu",
+  "Shari", "Tananai", "Ultimo", "Will"];
+  
+songs = [
+  "Sali (Canto dell'anima)", "Mare di guai", "Un bel viaggio",
+  "Splash", "Non mi va", "L'addio", "Due",
+  "Quando ti manca il fiato", "Mostro", "Parole dette male",
+  "Lettera 22", "Cenere", "Se poi domani", "Terzo cuore",
+  "Vivo", "Il bene nel male", "Duemilaminuti", "Due vite",
+  "Lasciami", "Supereroi", "Polvere", "Furore",
+  "Made in Italy", "Cause perse", "Egoista",
+  "Tango", "Alba", "Stupido"];
